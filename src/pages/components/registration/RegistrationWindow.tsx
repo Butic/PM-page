@@ -27,6 +27,7 @@ const RegistrationWindow = ({
     >
       <div className="d-flex flex-column">
         <TextField
+          sx={{backgroundColor: 'white'}}
           disabled
           id="filled-disabled"
           label="Name"
@@ -35,6 +36,7 @@ const RegistrationWindow = ({
         />
         <TextField
           id="filled-password-input"
+          sx={{backgroundColor: 'white'}}
           label="Password (min 5 symbols)"
           error={!paswordsEqual || (!!password && password.length < 5)}
           type="password"
@@ -46,6 +48,7 @@ const RegistrationWindow = ({
         />
         <TextField
           id="filled-confirm-password-input"
+          sx={{backgroundColor: 'white'}}
           label="Confirm Password"
           type="password"
           autoComplete="current-password"

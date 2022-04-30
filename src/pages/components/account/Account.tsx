@@ -36,6 +36,7 @@ const Account: React.FC = () => {
     <div className={cl.account_wrapper}>
 
       <FormControl
+        sx={{backgroundColor: 'white'}}
         className={cl.form}
         component="form"
         autoComplete="off"

@@ -48,7 +48,6 @@ const RegistrationWindowContainer = () => {
       <h1 className={classes.windowGreetings}>
         please comolete registration by creating your password
       </h1>
-      <h1 className={classes.windowGreetings}>(c)Stalin</h1>
       <RegistrationWindow
         username={username || 'friend'}
         password={password}
