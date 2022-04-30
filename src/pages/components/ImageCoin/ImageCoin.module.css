@@ -1,0 +1,10 @@
+.image__coin {
+  transition: 0.5s;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+}
+.image__coin:hover {
+  opacity: 0.85;
+  box-shadow: 0 5px 5px black;
+}

@@ -1,0 +1,36 @@
+.reportCard__frame {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 98vh;
+  min-width: 34vw;
+  top: 1vh;
+  left: 2vw;
+  transition: 0.5s;
+  transform: rotateY(0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  z-index: 1201;
+}
+.rotate {
+  transform: rotateY(90deg);
+}
+.front_img {
+  background-image: url(/public/img/bg.jpg);
+}
+
+.reportCard__description {
+  padding: 0;
+  margin: 0;
+  margin-left: 1vw;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3vh;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}

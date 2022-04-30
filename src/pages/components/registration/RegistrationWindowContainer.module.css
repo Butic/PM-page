@@ -1,0 +1,22 @@
+.windowContainer {
+  background: url(/public/img/registration.jpeg) no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.windowGreetings {
+  color: aliceblue;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  text-shadow: 3px 3px 3px #000;
+}
+.windowGreetings:first-child {
+  padding-top: 5vh;
+}
+.err {
+  color: red;
+  text-align: center;
+  font-size: 12px;
+  padding-bottom: 10px;
+}

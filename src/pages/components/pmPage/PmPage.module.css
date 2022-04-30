@@ -1,0 +1,42 @@
+.Pm_page__container {
+  overflow: hidden;
+  background: url(/public/img/reportMembers.jpg) no-repeat top fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Send Flowers';
+  width: 100vw;
+  height: 100vh;
+}
+.right_left_buttons{
+  height: 100%;
+  width: 25px;
+  border: 1px solid black;
+  opacity: 25%;
+}
+.main_card_container{
+  max-height: 85vh;
+  overflow-y: auto;
+  transition: 1.5s;
+}
+.targeted_user_img{
+  background: url(/public/img/developer.png);
+  height: 200px;
+  width: 200px;
+}
+.info_container{
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen';
+  font-style: italic;
+  color:gray
+}
+.rigth_side_full_screen{
+  position: fixed;
+  right: 1vw;
+  top: 47%;
+  border: none;
+  background: none;
+  transition: 0.5s;
+  width: 50px;
+  height: 6vh;
+}

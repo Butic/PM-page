@@ -1,0 +1,11 @@
+.wrapper {
+  background: url(/public/img/registration.jpeg) no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.reportButton {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+}

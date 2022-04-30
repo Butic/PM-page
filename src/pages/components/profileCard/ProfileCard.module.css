@@ -1,0 +1,33 @@
+.profileCard__frame {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 84vh;
+  min-width: 28vw;
+  top: 8vh;
+  right: 1vw;
+  transition: 0.5s;
+  transform: rotateY(0);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.rotate {
+  transform: rotateY(90deg);
+}
+.front_img {
+  background-image: url(/public/img/profile.jpg);
+}
+.back_img {
+  background-image: url(/public/img/profile-back.jpg);
+}
+.profileCard__description {
+  padding: 0;
+  margin: 0;
+  margin-left: 1vw;
+  font-size: 3vh;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
